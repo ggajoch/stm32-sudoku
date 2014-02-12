@@ -1,0 +1,20 @@
+The 'RTX_Blinky' project is a simple RTX Kernel based example for 
+ST 'STM32F030R8' microcontroller using ST 'STM32F030-Discovery' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+Example functionality:
+ - Clock Settings:
+   - SYSCLK  =           48.00 MHz
+   - HCLK    = SYSCLK  = 48.00 MHz
+
+The simple RTX Kernel based example uses two RTX tasks
+to blink a LED.
+
+
+The Blinky program is available in different targets:
+
+  STM32F030 Flash:    configured for on-chip Flash
+                      (used for production or target debugging)
+
+  STM32F030 RAM:      configured for on-chip RAM
+                      (used for target debugging)

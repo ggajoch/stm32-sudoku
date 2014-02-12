@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\flash\blinky.o"
+".\flash\led.o"
+".\flash\rtx_conf_cm.o"
+"C:\MyFiles\Science\Electronics\MicroControllers\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS_RTX\Lib\ARM\RTX_CM0.lib"
+".\flash\startup_stm32f030x8.o"
+".\flash\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf
